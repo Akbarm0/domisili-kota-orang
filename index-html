@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Domisili Kota</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Form Domisili Kota</h1>
+  <input type="text" id="nama" placeholder="Nama">
+  <input type="text" id="kota" placeholder="Kota Domisili">
+  <button onclick="simpanDomisili()">Simpan</button>
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
